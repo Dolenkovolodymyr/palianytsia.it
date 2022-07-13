@@ -38,4 +38,8 @@ router.get('/MaksAnton', (req, res, next) => {
     res.render('students/MaksAnton', null)
 })
 
+router.get('/Dolenkovolodymyr', (req, res, next) => 
+           
+    res.render('students/Dolenkovolodymyr', null)
+})
 module.exports = router
